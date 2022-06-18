@@ -15,8 +15,6 @@ import Favorite from "@mui/icons-material/Favorite";
 import ShareIcon from "@mui/icons-material/Share";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 const Post = ({ author, image }) => {
-  console.log(author);
-  console.log(image);
   return (
     <Card sx={{ margin: "15px 0" }}>
       <CardHeader
